@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+}
+
+
+.order-time{
+    background-image: url(./pexels-fredrick-eankels-4082637.jpg);
+    background-size: cover ;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.order {
+    width: 40%;
+    height: 100vh;
+    margin: 0px 20px;
+    
+
+}
+
+
+.order h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+form {
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(./3cacf4c7f2cb8ffb85cc2671ff03f0aa.jpg);
+    background-size: cover;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+textarea {
+    resize: vertical; /* Allow resizing the textarea height */
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}

@@ -1,0 +1,148 @@
+.first {
+    text-align: center;
+    padding: 70px 0;
+    display: flex;
+    width: 100%;
+    height: 350px;;
+    flex: 1 1;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.f-img{
+    width: 85%;
+    height: 350px;
+    padding-bottom: 10px;
+}
+
+.f-img img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.f-write{
+    width: 500px;
+    height: 200px;
+    background: papayawhip;
+    margin-left: -100px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    box-shadow: 10px 10px rgba(181, 224, 173, 0.1);
+
+}
+.first h1 {
+    font-size: 30px;
+    margin: 10px 0px 0 0;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.first p {
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding: 0 10px; ;
+}
+
+.cta-button {
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff; 
+    border-radius: 15px;
+    text-decoration: none;
+}
+.cta-button:hover{
+    color: #000;
+    background-color: gold;
+   
+}
+
+.slide img{
+    width: 90%;
+}
+
+.brand-names-section a{
+    color: black;
+}
+
+.brand-names-section ul li:hover{
+    text-shadow: .1rem .1rem .1rem #ccc;
+    background-color: gold;
+}
+
+.brand-names-section h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.brand-names-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.brand-box:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+.text-image-section {
+    width: 100%;
+    height: 400px;;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1.5 1;
+    margin: 20px 0;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    border-radius: 3px;
+    gap:30px;
+}
+
+.image-container {
+    width: 100%;    
+    height: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    margin:0 50px;
+    text-align: center;
+    color: #f7e4e4;
+}
+
+.text-overlay h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-overlay p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+

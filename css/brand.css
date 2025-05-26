@@ -1,0 +1,82 @@
+
+.hero {
+    text-align: center;
+    padding: 40px 0 0 0;
+    background-color: #f5f5f5;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.hero img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.featured-watches {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: .5rem solid #080000;
+
+}
+
+.featured-watches h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+
+.watch-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.watch {
+    text-align: center;
+    margin: 0px;
+    padding: 0 20px 20px 20px;
+    border-radius: 15px;
+}
+
+.watch img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.watch h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.watch p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.watch a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .subscribe-form input[type="email"] {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form button {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
