@@ -27,6 +27,14 @@ Real-time database integration (Firebase or MongoDB)
 
 ## 📸 Screenshots
 
+### 🏠 Homepage
+
+![Homepage](show/screenshots/homepage.png)
+
+### 🛍️ Product Page
+
+![Product Page](show/screenshots/product-page.png)
+
 ## 🤝 Contributing
 Contributions, suggestions, and feedback are welcome!
 Please fork the repo and open a pull request.
