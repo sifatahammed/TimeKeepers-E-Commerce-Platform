@@ -14,9 +14,6 @@ TimeKeepers is a modern, responsive e-commerce platform built for showcasing and
 - 🖼️ **Interactive Galleries** – Hover effects and animations to enhance product presentation  
 - ⚡ **SEO & Performance Optimized**
 
-
-## 📂 Project Structure
-
 ## 🛠️ Future Enhancements
 Full shopping cart and checkout flow
 
